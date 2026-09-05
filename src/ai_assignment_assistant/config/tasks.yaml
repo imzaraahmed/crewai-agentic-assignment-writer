@@ -1,0 +1,79 @@
+research_task:
+  description: >
+    Conduct comprehensive research on {topic}.
+
+    Gather accurate and reliable information about the topic, including
+    definitions, key concepts, important facts, examples, applications,
+    advantages, challenges, and recent developments.
+
+    Consider the current year as {current_year} and prioritize information
+    that is relevant and useful for an academic assignment.
+
+  expected_output: >
+    A detailed research summary containing at least 10 well-organized
+    bullet points. Include definitions, important facts, examples,
+    applications, advantages, challenges, and recent developments.
+
+  agent: researcher
+
+
+writing_task:
+  description: >
+    Use the research produced by the Researcher to write a complete
+    academic assignment about {topic}.
+
+    The assignment must be logically organized and easy to understand.
+
+    Include:
+    - A suitable title
+    - Introduction
+    - Main sections with headings
+    - Relevant subheadings
+    - Examples where appropriate
+    - Clear explanations
+    - Conclusion
+
+    Do not invent facts that are not supported by the research.
+
+  expected_output: >
+    A complete academic assignment in Markdown format containing:
+    - Title
+    - Introduction
+    - Main sections
+    - Subheadings
+    - Examples
+    - Conclusion
+
+    Do not use code fences.
+
+  agent: writer
+
+
+review_task:
+  description: >
+    Review the assignment produced by the Writer.
+
+    Check the assignment for:
+    - Grammar
+    - Spelling
+    - Punctuation
+    - Sentence structure
+    - Clarity
+    - Logical flow
+    - Formatting
+    - Completeness
+    - Proper academic structure
+
+    Improve the assignment where necessary while preserving the original
+    meaning and important information.
+
+  expected_output: >
+    A final polished academic assignment in Markdown format that is:
+    - Grammatically correct
+    - Clear and readable
+    - Properly structured
+    - Logically organized
+    - Properly formatted
+    - Ready for academic submission
+
+  agent: reviewer
