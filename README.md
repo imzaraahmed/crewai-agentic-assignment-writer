@@ -12,6 +12,7 @@ The system currently uses three agents:
 * ✍️ **Writer Agent** — transforms the research into a structured academic assignment.
 * 📝 **Reviewer Agent** — reviews and improves the generated assignment for clarity, grammar, structure, and completeness.
 
+
 ---
 
 ## ✨ Features
