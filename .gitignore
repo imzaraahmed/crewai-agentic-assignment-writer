@@ -1,3 +1,15 @@
+# Environment variables / API keys
 .env
+
+# Virtual environment
+.venv/
+
+# Python cache
 __pycache__/
+*.py[cod]
+
+# macOS / Windows files
 .DS_Store
+Thumbs.db
+# Generated assignment draft
+draft_assignment.md

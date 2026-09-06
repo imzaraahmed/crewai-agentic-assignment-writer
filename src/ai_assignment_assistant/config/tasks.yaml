@@ -1,13 +1,15 @@
 research_task:
   description: >
+
     Conduct comprehensive research on {topic}.
 
-    Gather accurate and reliable information about the topic, including
-    definitions, key concepts, important facts, examples, applications,
-    advantages, challenges, and recent developments.
+    Use the available Web Search Tool to find accurate, relevant, and recent
+    information about the topic.
 
-    Consider the current year as {current_year} and prioritize information
-    that is relevant and useful for an academic assignment.
+    Research definitions, key concepts, important facts, examples,
+    applications, advantages, challenges, and recent developments.
+
+    Prefer reliable sources and do not invent statistics or facts.
 
   expected_output: >
     A detailed research summary containing at least 10 well-organized
@@ -35,14 +37,12 @@ writing_task:
 
     Do not invent facts that are not supported by the research.
 
+    After writing the assignment, use the Assignment File Writer tool
+    to save the complete assignment as draft_assignment.md.
+
   expected_output: >
-    A complete academic assignment in Markdown format containing:
-    - Title
-    - Introduction
-    - Main sections
-    - Subheadings
-    - Examples
-    - Conclusion
+    A complete academic assignment in Markdown format that has been
+    saved to draft_assignment.md using the Assignment File Writer tool.
 
     Do not use code fences.
 
